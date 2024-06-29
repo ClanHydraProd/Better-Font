@@ -15,7 +15,7 @@ function convertText() {
         }
     }
 
-    document.getElementById('outputText').textContent = outputText;
+    document.getElementById('outputText').value = outputText;
 }
 
 // Rechtsklick deaktivieren
